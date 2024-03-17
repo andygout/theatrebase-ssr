@@ -8,12 +8,7 @@ const Head = props => {
 		<head>
 			<title>{`${documentTitle} | TheatreBase`}</title>
 			<link rel="stylesheet" href="/main.css" />
-			<script> </script>
-			{/*
-				Until the above script tags have content,
-				this whitespace will stop the CSS transition
-				from firing on page load.
-			*/}
+			<script src="/main.js" />
 		</head>
 	);
 

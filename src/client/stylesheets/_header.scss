@@ -1,8 +1,15 @@
 @use 'lib/color-variables';
 
 .header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: color-variables.$header-background-color;
 	padding: 0 10px;
+}
+
+.header__component {
+	flex: 1;
 }
 
 .header__home-link {

@@ -27,6 +27,9 @@
     "npm": "10.2.1"
   },
   "dependencies": {
+    "@financial-times/o-autocomplete": "^1.9.1",
+    "@financial-times/o-forms": "^9.12.1",
+    "@financial-times/o-utils": "^2.2.1",
     "express": "4.18.1",
     "express-session": "1.17.3",
     "morgan": "1.10.0",

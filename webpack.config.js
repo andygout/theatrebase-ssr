@@ -64,7 +64,10 @@ const serverConfig = {
 
 const clientConfig = {
 	mode: 'none', // i.e. not production or development (see: https://webpack.js.org/configuration/mode).
-	entry: './src/client/stylesheets/index.scss',
+	entry: [
+		'./src/client/scripts/index.js',
+		'./src/client/stylesheets/index.scss'
+	],
 	output: {
 		path: path.join(__dirname, 'public'),
 		filename: 'main.js'

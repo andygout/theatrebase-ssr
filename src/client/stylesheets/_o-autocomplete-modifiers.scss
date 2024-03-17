@@ -1,0 +1,32 @@
+@use 'lib/color-variables';
+
+.o-autocomplete {
+	width: 100%;
+}
+
+.o-autocomplete__input {
+	padding-left: 12px !important;
+	border-radius: 6px !important;
+	color: color-variables.$default-text-color;
+}
+
+.o-autocomplete__menu {
+	padding: 8px !important;
+	border-radius: 6px;
+	color: color-variables.$default-text-color !important;
+}
+
+.o-autocomplete__menu-loading-container {
+	top: calc(100% + 2px) !important;
+	border-radius: 6px;
+}
+
+.o-autocomplete__menu--overlay {
+	top: calc(100% + 2px) !important;
+}
+
+.o-autocomplete__option--focused,
+.o-autocomplete__option:hover {
+	background-color: color-variables.$autocomplete-selected-option-background-color !important;
+	border-color: color-variables.$autocomplete-selected-option-background-color !important;
+}
